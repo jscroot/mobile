@@ -4,14 +4,16 @@ Kita harus **menginstal Android SDK, Gradle, dan beberapa alat CLI lainnya** sec
 
 ### **🔹 1. Install Java JDK (Wajib untuk Gradle)**
 1. Unduh dan install **JDK (Java Development Kit)**:  
-   👉 **Download:** [https://adoptium.net/temurin/releases/](https://adoptium.net/temurin/releases/)  
+   👉 **Download:** [https://openjdk.org/](https://openjdk.org/)
 2. Setelah instalasi, cek versi dengan perintah:  
    ```sh
    java -version
    ```
    Jika berhasil, akan muncul output seperti:
    ```
-   openjdk version "17.0.2" 2023-01-17
+   openjdk version "17.0.13" 2024-10-15
+   OpenJDK Runtime Environment OpenLogic-OpenJDK (build 17.0.13+11-adhoc..jdk17u)
+   OpenJDK 64-Bit Server VM OpenLogic-OpenJDK (build 17.0.13+11-adhoc..jdk17u, mixed mode, sharing)
    ```
 
 ---
