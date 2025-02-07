@@ -18,6 +18,7 @@
 # vendor/
 android/build/
 android/.gradle/
+.vscode/
 # Go workspace file
 go.work
 go.work.sum
