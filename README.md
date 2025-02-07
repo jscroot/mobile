@@ -69,10 +69,27 @@ Kita harus **menginstal Android SDK, Gradle, dan beberapa alat CLI lainnya** sec
    gradle -v
    ```
    Jika berhasil, akan muncul output versi Gradle.
+   ```sh
+   
+   ------------------------------------------------------------
+   Gradle 8.12.1
+   ------------------------------------------------------------
+   
+   Build time:    2025-01-24 12:55:12 UTC
+   Revision:      0b1ee1ff81d1f4a26574ff4a362ac9180852b140
+   
+   Kotlin:        2.0.21
+   Groovy:        3.0.22
+   Ant:           Apache Ant(TM) version 1.10.15 compiled on August 25 2024
+   Launcher JVM:  17.0.13 (OpenLogic 17.0.13+11-adhoc..jdk17u)
+   Daemon JVM:    C:\Program Files\OpenLogic\jdk-17.0.13.11-hotspot (no JDK specified, using current Java home)
+   OS:            Windows 10 10.0 amd64
+
+   ```
 
 ---
 
-### **🔹 4. Buat Proyek Capacitor Tanpa npm/npx**
+### **🔹 4. Buat Proyek Web
 Karena kita **tidak menggunakan npm**, kita harus membuat proyek Capacitor secara manual.
 
 1. **Buat folder proyek:**
