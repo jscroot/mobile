@@ -20,7 +20,8 @@ Kita harus **menginstal Android SDK, Gradle, dan beberapa alat CLI lainnya** sec
 
 ### **🔹 2. Install Android SDK (Tanpa Android Studio)**
 1. **Unduh Android Command Line Tools:**  
-   👉 [https://developer.android.com/studio#downloads](https://developer.android.com/studio#downloads)  
+   👉 [https://developer.android.com/studio#command-tools](https://developer.android.com/studio#command-tools)  
+   ![image](https://github.com/user-attachments/assets/bfaf3abe-0a10-4bb1-9832-2bf3d4bcc316)  
 2. **Ekstrak file ke direktori berikut:**  
    ```sh
    C:\Android\cmdline-tools
