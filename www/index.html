@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capacitor Without npm</title>
+    <script type="module">
+        import { Device } from 'https://cdn.jsdelivr.net/npm/@capacitor/device@latest/dist/esm/index.js';
+
+        async function getDeviceInfo() {
+            const info = await Device.getInfo();
+            document.getElementById("output").innerText = JSON.stringify(info, null, 2);
+        }
+    </script>
+</head>
+<body>
+    <h1>Capacitor Without npm</h1>
+    <button onclick="getDeviceInfo()">Get Device Info</button>
+    <pre id="output"></pre>
+</body>
+</html>
