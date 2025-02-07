@@ -42,6 +42,7 @@ Kita harus **menginstal Android SDK, Gradle, dan beberapa alat CLI lainnya** sec
        C:\Android\Sdk\platform-tools
        C:\Android\Sdk\build-tools\33.0.2
        ```
+       ![image](https://github.com/user-attachments/assets/8ecf5ed2-4964-455d-a753-794fff6c43a8)  
 5. **Buka Command Prompt (cmd) dan jalankan perintah berikut:**  
    ```sh
    sdkmanager --install "platforms;android-33" "build-tools;33.0.2" "platform-tools"
